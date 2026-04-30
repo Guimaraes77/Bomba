@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - PULSE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⛽</span>
+                <span class="logo-text">PULSE</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="servicos.html" class="nav-link">Serviços</a></li>
+                <li><a href="precos.html" class="nav-link">Preços</a></li>
+                <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                <li><a href="contacto.html" class="nav-link active">Contacto</a></li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contacte-nos</h1>
+            <p>Estamos aqui para ajudar</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Informações de Contacto</h2>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3>Telefone</h3>
+                            <p><a href="tel:+351211234567">+351 21 1234 5678</a></p>
+                            <p class="contact-note">Disponível 24 horas</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@pulse.pt">info@pulse.pt</a></p>
+                            <p class="contact-note">Responderemos em 24 horas</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Endereço</h3>
+                            <p>Avenida Principal, 123</p>
+                            <p>1700-000 Lisboa, Portugal</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div class="contact-details">
+                            <h3>Horário de Funcionamento</h3>
+                            <p><strong>Segunda a Sexta:</strong> 06:00 - 22:00</p>
+                            <p><strong>Sábado e Domingo:</strong> 07:00 - 21:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Envie-nos uma Mensagem</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Seleccione um assunto</option>
+                                <option value="informacoes">Informações Gerais</option>
+                                <option value="servicos">Sobre Serviços</option>
+                                <option value="precos">Sobre Preços</option>
+                                <option value="reclamacao">Reclamação</option>
+                                <option value="sugestao">Sugestão</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="form-submit-btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Encontre-nos no Mapa</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.3628024019397!2d-9.139337!3d38.722252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a4d4ccccc%3A0x500ecc6e5417b70!2sAv.%20Principal%2C%20123%2C%201700-000%20Lisboa!5e0!3m2!1spt-PT!2spt!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Qual é o horário de funcionamento?</h3>
+                    <p>Funcionamos de segunda a sexta das 06:00 às 22:00, e sábado e domingo das 07:00 às 21:00. Estamos disponíveis 24 horas para emergências.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Que formas de pagamento aceitam?</h3>
+                    <p>Aceitamos dinheiro, cartão de crédito, cartão de débito e aplicações de pagamento móvel como Apple Pay e Google Pay.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Posso usar o programa de fidelização?</h3>
+                    <p>Sim! Registe-se no nosso programa e comece a ganhar pontos em cada compra. Os pontos podem ser resgatados por descontos e prémios.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Qual é a qualidade do combustível?</h3>
+                    <p>Todo o nosso combustível é certificado e cumpre os mais altos padrões de qualidade europeus. Garantimos a melhor performance do seu veículo.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Oferecem serviço de lavagem?</h3>
+                    <p>Sim, oferecemos serviços de lavagem rápida, completa e com tratamento especial. Consulte a página de Serviços para mais detalhes.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Como posso contactar o apoio ao cliente?</h3>
+                    <p>Pode contactar-nos por telefone (+351 21 1234 5678), email (info@pulse.pt) ou preenchendo o formulário de contacto acima.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Visite-nos Hoje</h2>
+            <p>Venha conhecer a diferença de um serviço de qualidade</p>
+            <a href="#" class="cta-button-secondary">Obter Direcções</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>PULSE</h4>
+                    <p>Seu posto de combustível de confiança</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="precos.html">Preços</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>Telefone: +351 21 1234 5678</p>
+                    <p>Email: info@pulse.pt</p>
+                    <p>Endereço: Av. Principal, 123 - Lisboa</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Horário</h4>
+                    <p>Segunda a Sexta: 06:00 - 22:00</p>
+                    <p>Sábado e Domingo: 07:00 - 21:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PULSE - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
